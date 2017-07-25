@@ -8,7 +8,7 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-  background-image: url(images/washburn.jpg);
+  background-color: #FFF;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -6788,12 +6788,6 @@ h3, h2 {
 body > section {
     color: gray;
     background-color: #FFF;
-    margin-bottom: 300px;
-}
-
-body > section {
-    color: gray;
-    background-color: #FFF;
     margin-top: 50px;
     margin-bottom: 250px;
 }
@@ -6808,17 +6802,23 @@ h2{
 }
 
 .nav-color {
-    background-color: #075E94 !important;
+    background-color: #FFF !important;
 }
 
 img {
     height: 184px;
-    float: right;
+    float: center;
     margin: 0 0 10px 10px;
     clear: left;
 }
 
-.img-prof {
-    height: 300px;
-    
+
+
+.line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
